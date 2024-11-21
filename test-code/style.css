@@ -1,23 +1,23 @@
-.card-container {
-    position: relative;
-    width: 100%
-  }
-  .card-image {
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-  }
-  .card-body {
-    position: absolute;
-    width: 100%;
-    background: black;
-    opacity: 0.6;
-    color: white;
-    top: 8rem;
-    text-align: center;
-    font-size: 1.2em;
-    font-family: roboto;
-  }
-  .card-heading {
-    position: absolute;
-  }
+.parent{
+    background-color: bisque;
+    position: sticky;
+    padding: 5px;
+    height: 1000vh;
+    top: 10px;
+}
+
+.one{
+    background-color: aqua;
+    position: sticky;
+    top:10px;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: blueviolet;
+    position: sticky;
+    top: 20px;
+}
