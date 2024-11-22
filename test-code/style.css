@@ -2,10 +2,11 @@
 
 
 :root{
-    height: 1000px;
+    height: 2000px;
     background-image: url(/australian-shepherd.jpg);
     background-repeat: no-repeat;
-    width: 100vw;
+    background-position: center;
+    background-size: cover;
 }
 nav{    
     background: bisque;
