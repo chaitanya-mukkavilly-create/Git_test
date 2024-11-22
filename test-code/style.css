@@ -1,27 +1,52 @@
-.parent{
-    background-color: bisque;
-    position: sticky;
-    padding: 5px;
-    /* height: 1000vh; */
-    top: 10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
 
-.one{
-    background-color: aqua;
-    position: sticky;
-    top:10px;
-}
 
-.two{
-    background-color: blue;
+:root{
+    height: 1000px;
+    background-image: url(/australian-shepherd.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
 }
-
-.three{
-    background-color: blueviolet;
-    position: sticky;
+nav{    
+    background: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
     top: 20px;
 }
 
-:root{
-    background: linear-gradient(90deg, red, orange);
+ul{
+    display: flex;
+    margin:20px;
+    gap: 20px;
+    color: blueviolet;
+    font-weight: 900;
+    top: 10px;
 }
+
+li{
+    list-style: none;
+}
+
+.about:hover{
+    color: brown;
+}
+
+.contact:hover{
+    color: brown;
+}
+
+.resources:hover{
+    color: brown;
+}
+
+.logo{
+    margin: 20px;
+    font-size: large;
+    font-weight: 700;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    color: brown;
+    margin-right: auto;
+}
+
